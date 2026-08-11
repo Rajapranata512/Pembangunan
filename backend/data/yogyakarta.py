@@ -1,0 +1,73 @@
+"""
+DI Yogyakarta — 5 wilayah (1 Kota + 4 Kabupaten)
+Sumber: BPS DIY 2023, UMK DIY 2024
+"""
+PROVINCE = "DI Yogyakarta"
+PROV_CODE = "34"
+
+REGIONS = [
+    {"bps": "3471", "name": "Kota Yogyakarta", "type": "kota",
+     "area": 32.50, "lat": -7.7956, "lng": 110.3695,
+     "pop": 376000, "pop_gr": -0.22,
+     "pdrb": 38.5, "econ_gr": 5.15, "capita": 102400000,
+     "unemp": 5.37, "poverty": 6.82, "umk": 2492997,
+     "toll_km": 10, "station_km": 0.5, "airport_km": 45, "port_km": 60,
+     "infra": 72,
+     "land_price": 8000000, "house_price": 900000000, "prop_gr": 7.5, "afford": 40,
+     "school": 280, "univ": 28, "hosp": 18, "fac": 82,
+     "industrial": False, "ind_names": None, "kek": False,
+     "tourism": True, "edu_hub": True, "tod": False, "strat": 68,
+     "prov": PROVINCE, "prov_code": PROV_CODE},
+
+    {"bps": "3401", "name": "Kabupaten Kulon Progo", "type": "kabupaten",
+     "area": 586.27, "lat": -7.8284, "lng": 110.1541,
+     "pop": 436000, "pop_gr": 0.38,
+     "pdrb": 12.8, "econ_gr": 5.42, "capita": 29400000,
+     "unemp": 3.12, "poverty": 15.24, "umk": 2299234,
+     "toll_km": 35, "station_km": 8, "airport_km": 5, "port_km": 30,
+     "infra": 52,
+     "land_price": 2500000, "house_price": 350000000, "prop_gr": 12.0, "afford": 72,
+     "school": 450, "univ": 2, "hosp": 4, "fac": 35,
+     "industrial": False, "ind_names": None, "kek": True,
+     "tourism": True, "edu_hub": False, "tod": False, "strat": 55,
+     "prov": PROVINCE, "prov_code": PROV_CODE},
+
+    {"bps": "3402", "name": "Kabupaten Bantul", "type": "kabupaten",
+     "area": 506.85, "lat": -7.8883, "lng": 110.3275,
+     "pop": 985000, "pop_gr": 0.65,
+     "pdrb": 24.1, "econ_gr": 5.28, "capita": 24500000,
+     "unemp": 4.15, "poverty": 13.06, "umk": 2216275,
+     "toll_km": 15, "station_km": 5, "airport_km": 40, "port_km": 25,
+     "infra": 58,
+     "land_price": 3500000, "house_price": 500000000, "prop_gr": 9.2, "afford": 62,
+     "school": 680, "univ": 8, "hosp": 8, "fac": 48,
+     "industrial": True, "ind_names": "KIBA Bantul", "kek": False,
+     "tourism": True, "edu_hub": False, "tod": False, "strat": 55,
+     "prov": PROVINCE, "prov_code": PROV_CODE},
+
+    {"bps": "3403", "name": "Kabupaten Gunungkidul", "type": "kabupaten",
+     "area": 1485.36, "lat": -7.9831, "lng": 110.6065,
+     "pop": 747000, "pop_gr": 0.12,
+     "pdrb": 15.6, "econ_gr": 4.95, "capita": 20900000,
+     "unemp": 2.58, "poverty": 16.89, "umk": 2108000,
+     "toll_km": 50, "station_km": 999, "airport_km": 55, "port_km": 35,
+     "infra": 28,
+     "land_price": 1200000, "house_price": 250000000, "prop_gr": 6.0, "afford": 82,
+     "school": 750, "univ": 1, "hosp": 3, "fac": 28,
+     "industrial": False, "ind_names": None, "kek": False,
+     "tourism": True, "edu_hub": False, "tod": False, "strat": 32,
+     "prov": PROVINCE, "prov_code": PROV_CODE},
+
+    {"bps": "3404", "name": "Kabupaten Sleman", "type": "kabupaten",
+     "area": 574.82, "lat": -7.7166, "lng": 110.3557,
+     "pop": 1252000, "pop_gr": 1.15,
+     "pdrb": 42.8, "econ_gr": 5.52, "capita": 34200000,
+     "unemp": 4.82, "poverty": 7.51, "umk": 2374553,
+     "toll_km": 8, "station_km": 3, "airport_km": 40, "port_km": 55,
+     "infra": 68,
+     "land_price": 5000000, "house_price": 750000000, "prop_gr": 8.8, "afford": 52,
+     "school": 820, "univ": 22, "hosp": 15, "fac": 72,
+     "industrial": False, "ind_names": None, "kek": False,
+     "tourism": True, "edu_hub": True, "tod": False, "strat": 65,
+     "prov": PROVINCE, "prov_code": PROV_CODE},
+]

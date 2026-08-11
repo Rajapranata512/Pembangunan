@@ -1,0 +1,45 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local databases and generated reports
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+*.docx
+reports/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+coverage/
+
+# Logs and temporary/local working files
+*.log
+*.tmp
+*.temp
+output.txt
+read_docx.py
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
